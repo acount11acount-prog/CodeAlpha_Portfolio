@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ritika Tripathi | Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<nav>
+<h2 class="logo">Ritika</h2>
+
+<ul class="nav-links">
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#resume">Resume</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+
+<div class="menu-toggle" id="menu-toggle">
+<span></span>
+<span></span>
+<span></span>
+</div>
+
+</nav>
+</header>
+
+<section id="home" class="hero">
+
+<div class="hero-content">
+
+<img src="assets/images/profile.jpg" alt="Ritika Tripathi" class="profile-pic">
+<h1>Ritika Tripathi</h1>
+
+<p>Frontend Developer | UI Designer</p>
+
+<button onclick="scrollToSection('contact')">Contact Me</button>
+
+</div>
+
+</section>
+
+<section id="about" class="about">
+
+<h2>About Me</h2>
+
+<p>
+I am a passionate frontend developer focused on creating responsive and visually engaging web experiences. I enjoy building clean interfaces using modern technologies and continuously improving my development workflow.
+</p>
+
+</section>
+
+<section id="skills" class="skills">
+
+<h2>Skills</h2>
+
+<div class="skills-grid">
+
+<div class="skill-card">HTML5</div>
+<div class="skill-card">CSS3</div>
+<div class="skill-card">JavaScript</div>
+<div class="skill-card">Responsive Design</div>
+<div class="skill-card">UI/UX</div>
+<div class="skill-card">Git</div>
+
+</div>
+
+</section>
+
+<section id="resume" class="resume">
+
+<h2>Resume</h2>
+
+<p>You can download my professional resume below.</p>
+
+<a href="assets/resume.pdf" download class="resume-btn">Download Resume</a>
+
+</section>
+
+<section id="contact" class="contact">
+
+<h2>Contact</h2>
+
+<form>
+
+<input type="text" placeholder="Your Name" required>
+
+<input type="email" placeholder="Email" required>
+
+<textarea placeholder="Your Message"></textarea>
+
+<button type="submit">Send Message</button>
+
+</form>
+
+</section>
+
+<footer>
+
+<p>© 2026 Ritika Tripathi. All rights reserved.</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
